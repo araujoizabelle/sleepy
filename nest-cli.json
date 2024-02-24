@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "soupy": {
+      "type": "library",
+      "root": "libs/soupy",
+      "entryFile": "index",
+      "sourceRoot": "libs/soupy/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/soupy/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
